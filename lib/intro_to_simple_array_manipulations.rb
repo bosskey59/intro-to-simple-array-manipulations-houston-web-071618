@@ -3,7 +3,7 @@ def using_push(array, element)
 end
 
 def using_unshift(array, element)
-  
+  array.unshift(element)
 end
 
 def using_pop(array)
@@ -14,8 +14,8 @@ def pop_with_args(number_of_elements)
   array.pop(number_of_elements)
 end
 
-def using_unshift
-  
+def using_shift(array)
+  array.shift()  
 end
 
 def shift_with_args
